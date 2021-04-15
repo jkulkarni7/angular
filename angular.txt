@@ -1,0 +1,111 @@
+Angular
+1. lightwt framework
+2. .html, .css, .js & .ts
+3. Google, gmail services
+4. Misko Hevery -Google emp
+5. Google has declared its support for Angular
+6. Angular Js, Angular
+-----------------------------------------------------
+NIKITA TAYADE
+Harshit Rusia
+----------------------------
+
+-------------------------------
+HTML
+1. Markup lang[Tag based e.g. XML]
+2. case INsensetive
+3. compatible with all browsers 
+4. HTML5 -iframe, direct audio,video
+5. 
+-----------------------------------
+JS:
+1. scripting lang
+2. vanilla js prior
+3. lightwt
+4. object based
+5. not strictly typed
+6. client side
+7. appln: simple logic e.g. validation
+8. 
+---------------------------------------------
+TS:
+1. scripting lang
+2. SUPER set of js
+3. obj oriented[A,E,I,P]
+4. strictly typed
+5. Microsoft has given support
+6. support for classes,modules etc
+7. used in angular app development
+8.
+---------------------------------------------
+Installation procedure:
+1. install node.js from https://nodejs.org/en/
+2. node -v 1
+14.16[latest], min 10
+3. npm install -g typescript
+4. tsc -v
+4.3.2 min 3 version
+
+VISUAL STUDIO CODE
+--------------------------------------------------------
+
+1. code in TS
+2. tsc filename.ts
+3. node filename.js
+
+include <script> .html
+------------------------------------------------
+I.Q. 1]What are obj oriented paradigm?
+2] Expln 4 key pillars of OOP
+3] Diff bet Abstraction & Encapsulation
+4] How do you implement Abstraction,Encapsulation,Inheritance & Polymorphism?
+5] Explain with real time examples AIEP
+1. Abstraction:ATM, healthcare, Placement : hiding unnecessary implementation details
+2. Encapsulation: capsule etc wrapping together member functions & attributes in single entity clled as class
+3. Inheritance: 1.Reusability 2.Extensibility
+4. Polymorphism: ability to take multiple forms
+--------------------------------------------
+
+I.Q. Angular app flow:*
+
+1. angular.json 
+This file is the configuration file. Very first, it is referred by the builder so as to gain paths knowledge
+for e.g. Under "build" section, we have: "main": "src/main.ts",
+
+2. main.ts
+It acts as a entry point of our angular app.
+It tells anular builder to bootstrap[start] the app.
+
+platformBrowserDynamic().bootstrapModule(AppModule)
+
+This parameter: AppModule, is defined in import section; wherein path is also mentioned for that.
+like this: import { AppModule } from './app/app.module';
+
+
+3. app.module.ts
+bootstrap: [AppComponent]
+Using above line, builder comes to know about AppComponent.
+import { AppComponent } from './app.component'; 
+
+4. app.component.ts
+@Component decorator.
+selector, template or templateUrl
+
+selector is used to call the component
+template or templateUrl: html page to be displayed.
+
+5. index.html
+this file present in src folder gets called.
+compiler dynamically adds the bundles of js,html at the end of this file.
+<app-root> ->app.component.ts ->app.component.html
+
+6. app.component.html
+actual view part of our angular app- binding etc.
+-------------------------------------------------------------------
+
+MVC: Model View Controller
+MVVM
+MV*
+
+
+
